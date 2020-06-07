@@ -18,3 +18,18 @@ There is no need to be able to convert numbers larger than about 3000. (The Roma
 
 Part II
 Write a function to convert in the other direction, ie numeral to digit
+
+- [ ] RomanNumber.toRoman(1) -> I
+- [ ] RomanNumber.toRoman(2) -> II
+- [ ] RomanNumber.toRoman(5) -> V
+- [ ] RomanNumber.toRoman(4) -> IV
+- [ ] RomanNumber.toRoman(9) -> IX
+- [ ] RomanNumber.toRoman(10) -> X
+- [ ] RomanNumber.toRoman(50) -> L
+- [ ] RomanNumber.toRoman(90) -> XC
+- [ ] RomanNumber.toRoman(100) -> C
+- [ ] RomanNumber.toRoman(400) -> CD
+- [ ] RomanNumber.toRoman(500) -> D
+- [ ] RomanNumber.toRoman(900) -> CM
+- [ ] RomanNumber.toRoman(1000) -> M
+
