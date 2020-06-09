@@ -21,6 +21,7 @@ Write a function to convert in the other direction, ie numeral to digit
 
 - [x] RomanNumber.toRoman(1) -> I
 - [x] RomanNumber.toRoman(2) -> II
+- [ ] Refactor if to use while loop
 - [ ] RomanNumber.toRoman(5) -> V
 - [ ] RomanNumber.toRoman(4) -> IV
 - [ ] RomanNumber.toRoman(9) -> IX
