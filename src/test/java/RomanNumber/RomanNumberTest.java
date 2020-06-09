@@ -11,4 +11,10 @@ public class RomanNumberTest {
         RomanNumber romanNumber = new RomanNumber();
         assertEquals("I", romanNumber.toRoman(1));
     }
+
+    @Test
+    void twoGivesII() {
+        RomanNumber romanNumber = new RomanNumber();
+        assertEquals("II", romanNumber.toRoman(2));
+    }
 }
