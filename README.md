@@ -19,8 +19,8 @@ There is no need to be able to convert numbers larger than about 3000. (The Roma
 Part II
 Write a function to convert in the other direction, ie numeral to digit
 
-- [ ] RomanNumber.toRoman(1) -> I
-- [ ] RomanNumber.toRoman(2) -> II
+- [x] RomanNumber.toRoman(1) -> I
+- [x] RomanNumber.toRoman(2) -> II
 - [ ] RomanNumber.toRoman(5) -> V
 - [ ] RomanNumber.toRoman(4) -> IV
 - [ ] RomanNumber.toRoman(9) -> IX
