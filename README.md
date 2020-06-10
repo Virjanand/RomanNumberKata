@@ -23,7 +23,7 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] RomanNumber.toRoman(2) -> II
 - [x] Refactor if to use while loop
 - [x] Refactor test to parameterized test
-- [ ] RomanNumber.toRoman(5) -> V
+- [x] RomanNumber.toRoman(5) -> V
 - [ ] RomanNumber.toRoman(4) -> IV
 - [ ] RomanNumber.toRoman(9) -> IX
 - [ ] RomanNumber.toRoman(10) -> X
