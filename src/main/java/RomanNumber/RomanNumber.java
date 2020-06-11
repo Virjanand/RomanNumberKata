@@ -1,16 +1,28 @@
 package RomanNumber;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RomanNumber {
-    public String toRoman(int arabicNumber) {
+    Map<Integer, String> arabicToRoman;
+
+    public RomanNumber() {
+        arabicToRoman = new HashMap<>();
+        arabicToRoman.put(1, "I");
+        arabicToRoman.put(4, "IV");
+        arabicToRoman.put(5, "V");
+    }
+
+    public String toRoman(int arabicNumberToConvert) {
         StringBuilder result = new StringBuilder();
-        if (arabicNumber == 4) {
-            return "IV";
-        }if (arabicNumber == 5) {
-            return "V";
+        for (Integer arabicNumber : arabicToRoman.keySet()) {
+            if (arabicNumberToConvert == arabicNumber) {
+                return arabicToRoman.get(arabicNumber);
+            }
         }
-        while (arabicNumber > 0) {
+        while (arabicNumberToConvert > 0) {
             result.append("I");
-            arabicNumber--;
+            arabicNumberToConvert--;
         }
         return result.toString();
     }

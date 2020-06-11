@@ -24,7 +24,8 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] Refactor if to use while loop
 - [x] Refactor test to parameterized test
 - [x] RomanNumber.toRoman(5) -> V
-- [ ] RomanNumber.toRoman(4) -> IV
+- [x] RomanNumber.toRoman(4) -> IV
+- [ ] Refactor to using map
 - [ ] RomanNumber.toRoman(9) -> IX
 - [ ] RomanNumber.toRoman(10) -> X
 - [ ] RomanNumber.toRoman(50) -> L
