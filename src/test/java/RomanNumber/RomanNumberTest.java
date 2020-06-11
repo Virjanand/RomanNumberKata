@@ -11,6 +11,7 @@ public class RomanNumberTest {
     @CsvSource({
             "1, I",
             "2, II",
+            "4, IV",
             "5, V"
     })
     void oneGivesI(int arabicNumber, String expectedRomanNumber) {
