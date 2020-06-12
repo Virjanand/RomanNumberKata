@@ -12,11 +12,11 @@ public class RomanNumberTest {
             "1, I",
             "2, II",
             "4, IV",
-            "5, V"
+            "5, V",
+            "9, IX"
     })
     void oneGivesI(int arabicNumber, String expectedRomanNumber) {
         RomanNumber romanNumber = new RomanNumber();
         assertEquals(expectedRomanNumber, romanNumber.toRoman(arabicNumber));
     }
-
 }
