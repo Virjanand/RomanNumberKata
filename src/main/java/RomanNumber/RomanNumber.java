@@ -11,6 +11,7 @@ public class RomanNumber {
         arabicToRoman.put(1, "I");
         arabicToRoman.put(4, "IV");
         arabicToRoman.put(5, "V");
+        arabicToRoman.put(9, "IX");
     }
 
     public String toRoman(int arabicNumberToConvert) {
