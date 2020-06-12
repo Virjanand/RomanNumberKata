@@ -27,7 +27,8 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] RomanNumber.toRoman(4) -> IV
 - [x] Refactor to using map
 - [x] RomanNumber.toRoman(9) -> IX
-- [ ] RomanNumber.toRoman(10) -> X
+- [x] RomanNumber.toRoman(10) -> X
+- [ ] RomanNumber.toRoman(20) -> XX
 - [ ] RomanNumber.toRoman(50) -> L
 - [ ] RomanNumber.toRoman(90) -> XC
 - [ ] RomanNumber.toRoman(100) -> C
