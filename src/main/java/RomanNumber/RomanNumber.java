@@ -1,7 +1,6 @@
 package RomanNumber;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class RomanNumber {
     Map<Integer, String> arabicToRoman;
@@ -18,14 +17,13 @@ public class RomanNumber {
 
     public String toRoman(int arabicNumberToConvert) {
         StringBuilder result = new StringBuilder();
-        for (Integer arabicNumber : arabicToRoman.keySet()) {
-            if (arabicNumberToConvert == arabicNumber) {
-                return arabicToRoman.get(arabicNumber);
+        List<Integer> arabicNumbers = new ArrayList<>(arabicToRoman.keySet());
+        arabicNumbers.sort(Comparator.reverseOrder());
+        for (Integer arabicNumber : arabicNumbers) {
+            while (arabicNumberToConvert >= arabicNumber) {
+                result.append(arabicToRoman.get(arabicNumber));
+                arabicNumberToConvert -= arabicNumber;
             }
-        }
-        while (arabicNumberToConvert > 0) {
-            result.append("I");
-            arabicNumberToConvert--;
         }
         return result.toString();
     }

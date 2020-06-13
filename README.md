@@ -29,7 +29,7 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] RomanNumber.toRoman(9) -> IX
 - [x] RomanNumber.toRoman(10) -> X
 - [x] RomanNumber.toRoman(20) -> XX
-- [ ] Add duplicates like XX automatically and not from map
+- [x] Add duplicates like XX automatically and not from map
 - [ ] RomanNumber.toRoman(50) -> L
 - [ ] RomanNumber.toRoman(90) -> XC
 - [ ] RomanNumber.toRoman(100) -> C
