@@ -37,6 +37,6 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] RomanNumber.toRoman(100) -> C
 - [x] RomanNumber.toRoman(400) -> CD
 - [x] RomanNumber.toRoman(500) -> D
-- [ ] RomanNumber.toRoman(900) -> CM
+- [x] RomanNumber.toRoman(900) -> CM
 - [ ] RomanNumber.toRoman(1000) -> M
 
