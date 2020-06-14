@@ -13,6 +13,7 @@ public class RomanNumber {
         arabicToRoman.put(9, "IX");
         arabicToRoman.put(10, "X");
         arabicToRoman.put(40, "XL");
+        arabicToRoman.put(50, "L");
     }
 
     public String toRoman(int arabicNumberToConvert) {
