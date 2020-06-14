@@ -33,7 +33,7 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] Check if 7 -> VII
 - [x] RomanNumber.toRoman(40) -> XL
 - [x] RomanNumber.toRoman(50) -> L
-- [ ] RomanNumber.toRoman(90) -> XC
+- [x] RomanNumber.toRoman(90) -> XC
 - [ ] RomanNumber.toRoman(100) -> C
 - [ ] RomanNumber.toRoman(400) -> CD
 - [ ] RomanNumber.toRoman(500) -> D
