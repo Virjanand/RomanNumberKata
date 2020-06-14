@@ -34,7 +34,7 @@ Write a function to convert in the other direction, ie numeral to digit
 - [x] RomanNumber.toRoman(40) -> XL
 - [x] RomanNumber.toRoman(50) -> L
 - [x] RomanNumber.toRoman(90) -> XC
-- [ ] RomanNumber.toRoman(100) -> C
+- [x] RomanNumber.toRoman(100) -> C
 - [ ] RomanNumber.toRoman(400) -> CD
 - [ ] RomanNumber.toRoman(500) -> D
 - [ ] RomanNumber.toRoman(900) -> CM
