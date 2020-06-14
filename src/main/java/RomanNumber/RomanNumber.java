@@ -19,6 +19,7 @@ public class RomanNumber {
         arabicToRoman.put(400, "CD");
         arabicToRoman.put(500, "D");
         arabicToRoman.put(900, "CM");
+        arabicToRoman.put(1000, "M");
     }
 
     public String toRoman(int arabicNumberToConvert) {
