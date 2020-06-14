@@ -14,6 +14,7 @@ public class RomanNumber {
         arabicToRoman.put(10, "X");
         arabicToRoman.put(40, "XL");
         arabicToRoman.put(50, "L");
+        arabicToRoman.put(90, "XC");
     }
 
     public String toRoman(int arabicNumberToConvert) {
