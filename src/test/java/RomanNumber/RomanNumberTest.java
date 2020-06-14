@@ -23,7 +23,8 @@ public class RomanNumberTest {
             "100, C",
             "400, CD",
             "500, D",
-            "900, CM"
+            "900, CM",
+            "1000, M"
     })
     void oneGivesI(int arabicNumber, String expectedRomanNumber) {
         RomanNumber romanNumber = new RomanNumber();
