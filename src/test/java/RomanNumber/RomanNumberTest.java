@@ -17,7 +17,8 @@ public class RomanNumberTest {
             "9, IX",
             "10, X",
             "20, XX",
-            "40, XL"
+            "40, XL",
+            "50, L"
     })
     void oneGivesI(int arabicNumber, String expectedRomanNumber) {
         RomanNumber romanNumber = new RomanNumber();
