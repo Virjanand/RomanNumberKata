@@ -16,6 +16,7 @@ public class RomanNumber {
         arabicToRoman.put(50, "L");
         arabicToRoman.put(90, "XC");
         arabicToRoman.put(100, "C");
+        arabicToRoman.put(400, "CD");
     }
 
     public String toRoman(int arabicNumberToConvert) {
