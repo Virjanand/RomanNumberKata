@@ -13,6 +13,7 @@ public class RomanNumberTest {
             "2, II",
             "4, IV",
             "5, V",
+            "7, VII",
             "9, IX",
             "10, X",
             "20, XX"
