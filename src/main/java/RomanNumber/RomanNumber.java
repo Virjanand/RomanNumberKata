@@ -8,9 +8,7 @@ public class RomanNumber {
     public RomanNumber() {
         arabicToRoman = new HashMap<>();
         arabicToRoman.put(1, "I");
-        arabicToRoman.put(4, "IV");
         arabicToRoman.put(5, "V");
-        arabicToRoman.put(9, "IX");
         arabicToRoman.put(10, "X");
         arabicToRoman.put(40, "XL");
         arabicToRoman.put(50, "L");
@@ -26,11 +24,18 @@ public class RomanNumber {
         StringBuilder result = new StringBuilder();
         List<Integer> arabicNumbers = new ArrayList<>(arabicToRoman.keySet());
         arabicNumbers.sort(Comparator.reverseOrder());
+        int previousNumber = arabicNumbers.get(0);
         for (Integer arabicNumber : arabicNumbers) {
-            while (arabicNumberToConvert >= arabicNumber) {
-                result.append(arabicToRoman.get(arabicNumber));
-                arabicNumberToConvert -= arabicNumber;
+            if (arabicNumberToConvert + 1 == previousNumber) {
+                result.append("I").append(arabicToRoman.get(previousNumber));
+                arabicNumberToConvert -= previousNumber - 1;
+            } else {
+                while (arabicNumberToConvert >= arabicNumber) {
+                    result.append(arabicToRoman.get(arabicNumber));
+                    arabicNumberToConvert -= arabicNumber;
+                }
             }
+            previousNumber = arabicNumber;
         }
         return result.toString();
     }

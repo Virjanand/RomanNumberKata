@@ -16,6 +16,7 @@ public class RomanNumberTest {
             "7, VII",
             "9, IX",
             "10, X",
+            "19, XIX",
             "20, XX",
             "40, XL",
             "50, L",
